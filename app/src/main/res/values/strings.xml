@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">ALC Challenge</string>
+    <string name="alc_title">ALC 4.0 Phase 1</string>
+    <string name="about_alc">About ALC</string>
+    <string name="my_profile">My Profile</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="name">My name</string>
+    <string name="track">My name</string>
+    <string name="country">My name</string>
+    <string name="email">My name</string>
+    <string name="phone">My name</string>
 </resources>
