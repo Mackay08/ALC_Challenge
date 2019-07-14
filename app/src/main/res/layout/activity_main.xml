@@ -25,7 +25,7 @@
         app:layout_constraintTop_toTopOf="parent"/>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/abtBtn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -42,16 +42,20 @@
         app:layout_constraintTop_toBottomOf="@+id/textTitle"/>
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/profileBtn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
         android:background="@drawable/custom_round_button"
         android:elevation="20dp"
         android:padding="20dp"
         android:text="@string/my_profile"
         android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="@+id/button"
-        app:layout_constraintStart_toStartOf="@+id/button"
-        app:layout_constraintTop_toBottomOf="@+id/button"/>
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/abtBtn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/abtBtn"
+        app:layout_constraintTop_toBottomOf="@+id/abtBtn"
+        app:layout_constraintVertical_bias="0.0"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
