@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         init();
 
         abtBtnClick();
+        profileBtnClick();
 
     }
 
@@ -31,6 +32,16 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(MainActivity.this, AboutActivity.class);
+                startActivity(i);
+            }
+        });
+    }
+
+    public void profileBtnClick(){
+        profileButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, ProfileActivity.class);
                 startActivity(i);
             }
         });

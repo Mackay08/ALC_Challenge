@@ -4,9 +4,9 @@
     <string name="about_alc">About ALC</string>
     <string name="my_profile">My Profile</string>
     <string name="profile_picture">Profile Picture</string>
-    <string name="name">My name</string>
-    <string name="track">My name</string>
-    <string name="country">My name</string>
-    <string name="email">My name</string>
-    <string name="phone">My name</string>
+    <string name="name">Mark-Anthony Kobby Sappor</string>
+    <string name="track">Android</string>
+    <string name="country">Ghana</string>
+    <string name="email">mackay.sappor@gmail.com</string>
+    <string name="phone">+233249250698</string>
 </resources>
